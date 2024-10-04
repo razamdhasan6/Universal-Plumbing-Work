@@ -14,9 +14,9 @@ function Home() {
                       <span className="mt-2"><IoLogInOutline /></span><a href="https://wa.link/5o628x" target="_blank" rel="noopener noreferrer">Book Now</a></button>
               </div>
               <div className="w-full mx-auto sm:h-auto flex items-center justify-start px-10 sm:justify-center" >
-                  <img className="h-[150px] sm:h-[200px] md:h-[300px]" src="/public/Plumber-avtar.webp" alt="" />
+                  <img className="h-[150px] sm:h-[200px] md:h-[300px]" src="/Plumber-avtar.webp" alt="" />
 
-                  <img className="h-[150px] sm:hidden" src="/public/avtar1.png" alt="" />
+                  <img className="h-[150px] sm:hidden" src="/avtar1.png" alt="" />
               </div>
           </div>
               {/* homePage end here */}
