@@ -4,7 +4,7 @@ import { MdOutlineHomeWork  } from "react-icons/md";
 import { MdPermContactCalendar } from "react-icons/md";
 import { IoLogInOutline  } from "react-icons/io5";
 import { IoMdMenu } from "react-icons/io";
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import { IoMdClose } from "react-icons/io";
 import { Link } from "react-scroll";
 
@@ -17,14 +17,22 @@ function Header() {
         { title: "Book Now", icon: <IoLogInOutline />, isButton: true },
         
     ]
-    let [isOpen,setIsOpen]=useState(false)
+    let [isOpen, setIsOpen] = useState(false)
+    
+    useEffect(() => {
+        if (isOpen) {
+          document.body.style.overflow = "hidden";
+        } else {
+          document.body.style.overflow = "auto";
+        }
+      }, [isOpen]);
     return (
         <>
             {/* {Header Section start here } */}
             
                 {/* {Logo Section start here } */}
             <div className=" whitespace-nowrap sm:fixed sm:top-0 sm:left-1/2 sm:transform sm:-translate-x-1/2 w-full z-10 bg-white max-w-[1400px] custom-shadow h-[100px] flex justify-between items-center mx-auto px-[3rem] py-[.5rem] font-semibold ">
-                <div className="max-w-[160px] text-[1rem] md:max-w-[300px] md:text-[1.3rem] flex flex-col items-center  p-[1.2rem] shadow-md rounded-[3rem]">
+                <div className="max-w-[160px] ml-[-1.5rem] sm:ml-0 text-[1rem] md:max-w-[300px] md:text-[1.3rem] flex flex-col items-center  p-[1.2rem] shadow-md rounded-[3rem]">
                     <p className="text-blue-300 mt-[-1.2rem]  text-[2rem] p-0 m-0">A1</p>
                     <p className="mt-[-.5rem]">Plumbing <span className="text-red-500">Work</span> </p> 
                 </div>
@@ -38,7 +46,7 @@ function Header() {
                                     {!nav.isButton ? (
                                         <>
                                             <li className={` border w-full sm:border-none flex items-center gap-2 h-14 hover:border-b-[2px] hover:border-orange-400 ${isOpen ? 'pl-[40%]' : 'pl-0'}`}>
-                                                <Link className="flex items-center gap-2" to={nav.path} smooth={true} offset={-115} duration={400}>
+                                                <Link className="flex items-center gap-2" to={nav.path} smooth={true} offset={-115} duration={400}onClick={() => setIsOpen(false)}>
                                                 <span>{nav.icon}</span>
                                                 <span>{nav.title}</span>
                                                 </Link>

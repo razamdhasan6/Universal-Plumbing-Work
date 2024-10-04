@@ -10,8 +10,8 @@ function Home() {
                   </h1>
                   <p className="text-[.7rem] sm:text-[1rem] px-[1rem] xl:px-[5rem] font-semibold pt-5 sm:mb-5">"Facing any type of plumbing challenge? We provide 100% reliable solutions, whether you need repairs, new installations, or work done on commercial buildings, flats, or personal homes. Our expert team has handled projects of all sizes, ensuring top quality within your budget. See the list of services we offer below."
                   </p>
-                  <button className={`flex items-cente text-center text-[1.5rem] mt-5 w-auto p-[.5rem] sm:mt-0 gap-2 bg-orange-400 rounded-[1.5rem] sm:p-[.7rem] hover:bg-blue-400 hover:text-white `}>
-                      <span className="mt-2"><IoLogInOutline /></span><a href="https://wa.link/5o628x" target="_blank" rel="noopener noreferrer">Book Now</a></button>
+                  <button className={`flex items-cente text-center md:text-[1.5rem] mt-5 w-auto p-[.5rem] sm:mt-0 gap-2 bg-orange-400 rounded-[1.5rem] sm:p-[.7rem] hover:bg-blue-400 hover:text-white `}>
+                      <span className="Md:mt-2 mt-[.3rem]"><IoLogInOutline /></span><a href="https://wa.link/5o628x" target="_blank" rel="noopener noreferrer">Book Now</a></button>
               </div>
               <div className="w-full mx-auto sm:h-auto flex items-center justify-start px-10 sm:justify-center" >
                   <img className="h-[150px] sm:h-[200px] md:h-[300px]" src="/Plumber-avtar.webp" alt="" />
