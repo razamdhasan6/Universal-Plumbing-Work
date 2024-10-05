@@ -31,7 +31,7 @@ function Header() {
             {/* {Header Section start here } */}
             
                 {/* {Logo Section start here } */}
-            <div className=" whitespace-nowrap sm:fixed sm:top-0 sm:left-1/2 sm:transform sm:-translate-x-1/2 w-full z-10 bg-white max-w-[1400px] custom-shadow h-[100px] flex justify-between items-center mx-auto px-[3rem] py-[.5rem] font-semibold ">
+            <div className=" whitespace-nowrap fixed top-0 sm:left-1/2 sm:transform sm:-translate-x-1/2 w-full z-10 bg-white max-w-[1400px] custom-shadow h-[100px] flex justify-between items-center mx-auto px-[3rem] py-[.5rem] font-semibold ">
                 <div className="max-w-[160px] ml-[-1.5rem] sm:ml-0 text-[1rem] md:max-w-[300px] md:text-[1.3rem] flex flex-col items-center  p-[1.2rem] shadow-md rounded-[3rem]">
                     <p className="text-blue-300 mt-[-1.2rem]  text-[2rem] p-0 m-0">A1</p>
                     <p className="mt-[-.5rem]">Plumbing <span className="text-red-500">Work</span> </p> 
@@ -40,7 +40,7 @@ function Header() {
                 <div>
                     {/* {Nav Section Start here } */}
 
-                    <nav className={`sm:flex sm:static sm:bg-white sm:text-[.67rem] sm:pl-[1rem] md:text-[.9rem] lg:text-[1.1rem] sm:gap-3 lg:gap-5 absolute left-0 text-center sm:mt-[0%] mt-[17%]  bg-gray-500 text-white sm:text-black w-full h-full transition-all ${isOpen ? 'pl-[0]':'left-[-100%]'}`}>
+                    <nav className={`sm:flex sm:static sm:bg-white sm:text-[.67rem] sm:pl-[1rem] md:text-[.9rem] lg:text-[1.1rem] sm:gap-3 lg:gap-5 absolute left-0 text-center sm:mt-[0%] mt-[14%]  bg-gray-500 text-white sm:text-black w-full sm:h-auto h-[100svh]  transition-all ${isOpen ? 'pl-[0]':'left-[-100%]'}`}>
                             {navLinks.map((nav,index) => (
                                 <ul key={index} className="flex items-center cursor-pointer hover:text-red-500 ">
                                     {!nav.isButton ? (

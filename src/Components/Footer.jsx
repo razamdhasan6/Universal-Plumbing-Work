@@ -1,7 +1,7 @@
 import { CiFacebook ,CiInstagram ,CiTwitter  } from "react-icons/ci";
 const Footer = () => {
   return (
-      <div className="bg-orange-100 p-8 flex flex-col gap-2  text-center items-center justify-center">
+      <div className="bg-orange-100 p-8 flex flex-col gap-2  text-center items-center justify-center pb-3">
           <div className="flex gap-3 text-[2rem] cursor-pointer ">
               <span className="hover:scale-125 hover:bg-blue-200"><CiFacebook /></span>
               <span className="hover:scale-125 hover:bg-blue-200"><CiInstagram /></span>

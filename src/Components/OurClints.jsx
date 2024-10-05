@@ -9,6 +9,8 @@ import bashyamTitanic from '../assets/bashyam-titanic.avif';
 import villas from '../assets/villas.jpg';
 import matrivanam from '../assets/matrivanam.jpg';
 
+
+
 const OurClints = () => {
   return (
     <div className="max-w-[1400px] mx-auto custom-shadow">
@@ -19,42 +21,70 @@ const OurClints = () => {
           <img className="rounded-t-xl w-full object-cover md:h-[200px] h-[150px]" src={myHome} alt="My Home Tarkashya" />
           <h1 className="ml-5 mt-2 font-semibold md:text-[1.5rem] text-[1.2rem]">My Home Tarkashya</h1>
           <p className="ml-5 my-2 text-[.8rem] md:text-[1rem]">Kokapet, Hyderabad</p>
-          <button className="ml-5 mb-5 text-white p-2 bg-blue-400 text-[.rem] md:text-[1rem] rounded-xl">Visit Location</button>
+          <button className="ml-5 mb-3 text-blue-400 p-2 bg-gray-100 underline text-[.rem] md:text-[1rem] rounded-xl"> 
+            <a href="https://maps.app.goo.gl/7qPXQfonaaRDb2Td8" target="_blank" rel="noopener noreferrer">
+        Visit Location
+        </a></button>
         </div>
 
         <div className="mb-5 rounded-2xl gap-5 hover:scale-105 duration-300 custom-shadow">
           <img className="rounded-t-xl w-full object-cover md:h-[200px] h-[150px]" src={phoenixMultiplex} alt="Phoenix Multiplex" />
           <h1 className="ml-5 mt-2 font-semibold md:text-[1.5rem] text-[1.2rem]">Phoenix Multiplex</h1>
           <p className="ml-5 my-2 text-[.8rem] md:text-[1rem]">Guntur, Andhra Pradesh</p>
-          <button className="ml-5 mb-5 text-white p-2 bg-blue-400 text-[.rem] md:text-[1rem] rounded-xl">Visit Location</button>
+          <button className="ml-5 mb-3 text-blue-400 p-2 bg-gray-100 underline text-[.rem] md:text-[1rem] rounded-xl">
+            <a href="https://maps.app.goo.gl/MLERnC4FY2Q4SjkK7" target="_blank" rel="noopener noreferrer">
+        Visit Location
+        </a></button>
         </div>
 
         <div className="mb-5 rounded-2xl gap-5 hover:scale-105 duration-300 custom-shadow">
           <img className="rounded-t-xl w-full object-cover md:h-[200px] h-[150px]" src={dps} alt="Delhi Public School Guntur" />
           <h1 className="ml-5 mt-2 font-semibold md:text-[1.5rem] text-[1.2rem]">Delhi Public School Guntur</h1>
           <p className="ml-5 my-2 text-[.8rem] md:text-[1rem]">Lam, Guntur, Andhra Pradesh</p>
-          <button className="ml-5 mb-5 text-white p-2 bg-blue-400 text-[.rem] md:text-[1rem] rounded-xl">Visit Location</button>
+          <button className="ml-5 mb-3 text-blue-400 p-2 bg-gray-100 underline text-[.rem] md:text-[1rem] rounded-xl">
+            <a href="https://maps.app.goo.gl/MRUEzL19UwTWjN2n6" target="_blank" rel="noopener noreferrer">
+        Visit Location
+        </a></button>
         </div>
 
         <div className="mb-5 rounded-2xl gap-5 hover:scale-105 duration-300 custom-shadow">
           <img className="rounded-t-xl w-full object-cover md:h-[200px] h-[150px]" src={bashyamTitanic} alt="Bashyam Titanic Campus" />
           <h1 className="ml-5 mt-2 font-semibold md:text-[1.5rem] text-[1.2rem]">Bashyam Titanic Campus</h1>
           <p className="ml-5 my-2 text-[.8rem] md:text-[1rem]">Gorentla, Guntur, Andhra Pradesh</p>
-          <button className="ml-5 mb-5 text-white p-2 bg-blue-400 md:text-[1rem] rounded-xl">Visit Location</button>
+          <button className="ml-5 mb-3 text-blue-400 p-2 bg-gray-100 underline md:text-[1rem] rounded-xl">
+            <a href="https://maps.app.goo.gl/cRAteG2Ry7iJSsGSA" target="_blank" rel="noopener noreferrer">
+        Visit Location
+        </a></button>
         </div>
 
         <div className="mb-5 rounded-2xl gap-5 hover:scale-105 duration-300 custom-shadow">
           <img className="rounded-t-xl w-full object-cover md:h-[200px] h-[150px]" src={villas} alt="Alince Project Villas" />
           <h1 className="ml-5 mt-2 font-semibold md:text-[1.5rem] text-[1.2rem]">Alince Project Villas</h1>
           <p className="ml-5 my-2 text-[.8rem] md:text-[1rem]">Gujjangulla, Guntur, Andhra Pradesh</p>
-          <button className="ml-5 mb-5 text-white p-2 bg-blue-400 text-[.rem] md:text-[1rem] rounded-xl">Visit Location</button>
+          <button className="ml-5 mb-3 text-blue-400 p-2 bg-gray-100 underline text-[.rem] md:text-[1rem] rounded-xl">
+            <a href="https://maps.app.goo.gl/6B3y3fcXJaBSfjQN9" target="_blank" rel="noopener noreferrer">
+        Visit Location
+        </a></button>
         </div>
 
         <div className="mb-5 rounded-2xl gap-5 hover:scale-105 duration-50 custom-shadow">
           <img className="rounded-t-xl w-full object-cover md:h-[200px] h-[150px]" src={matrivanam} alt="Bashyam Matrivanam Guntur" />
           <h1 className="ml-5 mt-2 font-semibold md:text-[1.5rem] text-[1.2rem]">Bashyam Matrivanam Guntur</h1>
           <p className="ml-5 my-2 text-[.8rem] md:text-[1rem]">Guntur, Andhra Pradesh</p>
-          <button className="ml-5 mb-5 text-white p-2 bg-blue-400 text-[.rem] md:text-[1rem] rounded-xl">Visit Location</button>
+          <button className="ml-5 mb-3 text-blue-400 p-2 bg-gray-100 underline text-[.rem] md:text-[1rem] rounded-xl">
+            <a href="https://maps.app.goo.gl/Fy62zaxYg7Rdskkx7" target="_blank" rel="noopener noreferrer">
+        Visit Location
+        </a></button>
+              </div>
+              
+              <div className="mb-5 rounded-2xl gap-5 hover:scale-105 duration-50 custom-shadow">
+          <img className="rounded-t-xl w-full object-cover md:h-[200px] h-[150px]" src={matrivanam} alt="Bashyam Matrivanam Guntur" />
+          <h1 className="ml-5 mt-2 font-semibold md:text-[1.5rem] text-[1.2rem]">Aua Infotech</h1>
+          <p className="ml-5 my-2 text-[.8rem] md:text-[1rem]">Jawahar Colony, Chanda Nagar, Hyderabad, Telangana</p>
+          <button className="ml-5 mb-3 text-blue-400 p-2 bg-gray-100 underline text-[.rem] md:text-[1rem] rounded-xl">
+            <a href="https://maps.app.goo.gl/t9kD9DvPQ6EoWpnx8" target="_blank" rel="noopener noreferrer">
+        Visit Location
+        </a></button>
         </div>
 
       </div>

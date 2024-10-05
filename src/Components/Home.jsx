@@ -7,7 +7,7 @@ function Home() {
   return (
       <>
               {/* homePage start here */}
-          <div className="sm:mt-[115px] grid custom-shadow sm:grid-cols-3 bg-blue-100 mx-auto h-auto py-5 max-w-[1400px] sm:h-[65vh] mt-4">
+          <div className="sm:mt-[115px] grid custom-shadow sm:grid-cols-3 bg-blue-100 mx-auto h-auto py-5 max-w-[1400px] sm:h-[65vh] mt-[7rem]">
               <div className="h-[50vh] w-full sm:h-auto col-span-2 flex flex-col items-center md:h-[100%] py-[2rem] justify-center px-[2rem]">
                   <h1 className="text-[1.5rem] sm:text-[2rem] font-bold mx-auto text-center sm:mt-[-3rem] md:mt-0">
                       Facing Plumbing Issues?<br /> Our Solutions Are Guaranteed!
