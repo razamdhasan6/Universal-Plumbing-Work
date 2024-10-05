@@ -68,7 +68,7 @@ function OurServices() {
 
             <div className="custom-shadow bg-white rounded-xl hover:scale-105 duration-200">
               <div>
-                <img className="md:h-[200px] h-[150px] w-full cover" src={compositeServiceImg} alt="Composite-Service" />
+                <img className="md:h-[200px] rounded-t-xl h-[150px] w-full cover" src={compositeServiceImg} alt="Composite-Service"/>
               </div>
               <div className="p-5">
                 <h1 className="md:text-[2rem] text-[1.2rem] font-semibold text-center">COMPOSITE</h1>

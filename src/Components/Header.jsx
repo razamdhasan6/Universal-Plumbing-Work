@@ -14,7 +14,7 @@ function Header() {
         {title:"Service's",icon:<VscTools/>, path:"services"},
         {title:"Our Clints",icon:<MdOutlineHomeWork/>, path:"clients"},
         {title:"Contact-Us",icon:<MdPermContactCalendar  />, path:"contact"},
-        { title: "Book Now", icon: <IoLogInOutline />, isButton: true },
+        { title: "Connect-Now", icon: <IoLogInOutline />, isButton: true },
         
     ]
     let [isOpen, setIsOpen] = useState(false)
