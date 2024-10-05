@@ -1,3 +1,10 @@
+import React from 'react';
+import cpvcServiceImg from '../assets/cpvc-service.png';
+import pvcServiceImg from '../assets/pvc-service.avif';
+import upvcServiceImg from '../assets/upvc-service.png';
+import giServiceImg from '../assets/gi-service.png';
+import pprServiceImg from '../assets/ppr-service.avif';
+import compositeServiceImg from '../assets/composite-service.jpg';
 
 function OurServices() {
   return (
@@ -11,7 +18,7 @@ function OurServices() {
             
             <div className="custom-shadow bg-white rounded-xl hover:scale-105 duration-200">
               <div>
-                <img className="md:h-[200px] h-[150px] w-full cover" src="/cpvc-service.png" alt="CPVC-Service" />
+                <img className="md:h-[200px] h-[150px] w-full cover" src={cpvcServiceImg} alt="CPVC-Service" />
               </div>
               <div className="p-5">
                 <h1 className="md:text-[2rem] text-[1.2rem] font-semibold text-center">CPVC</h1>
@@ -21,7 +28,7 @@ function OurServices() {
 
             <div className="custom-shadow bg-white rounded-xl hover:scale-105 duration-200">
               <div>
-                <img className="md:h-[200px] h-[150px] w-full cover" src="/pvc-service.avif" alt="CPVC-Service" />
+                <img className="md:h-[200px] h-[150px] w-full cover" src={pvcServiceImg} alt="PVC-Service" />
               </div>
               <div className="p-5">
                 <h1 className="md:text-[2rem] text-[1.2rem] font-semibold text-center">PVC</h1>
@@ -31,7 +38,7 @@ function OurServices() {
 
             <div className="custom-shadow bg-white rounded-xl hover:scale-105 duration-200">
               <div>
-                <img className="md:h-[200px] h-[150px] w-full cover" src="/upvc-service.png" alt="CPVC-Service" />
+                <img className="md:h-[200px] h-[150px] w-full cover" src={upvcServiceImg} alt="UPVC-Service" />
               </div>
               <div className="p-5">
                 <h1 className="md:text-[2rem] text-[1.2rem] font-semibold text-center">UPVC</h1>
@@ -41,7 +48,7 @@ function OurServices() {
 
             <div className="custom-shadow bg-white rounded-xl hover:scale-105 duration-200">
               <div>
-                <img className="md:h-[200px] h-[150px] w-full cover" src="/gi-service.png" alt="CPVC-Service" />
+                <img className="md:h-[200px] h-[150px] w-full cover" src={giServiceImg} alt="GI-Service" />
               </div>
               <div className="p-5">
                 <h1 className="md:text-[2rem] text-[1.2rem] font-semibold text-center">GI</h1>
@@ -51,7 +58,7 @@ function OurServices() {
 
             <div className="custom-shadow bg-white rounded-xl hover:scale-105 duration-200">
               <div>
-                <img className="md:h-[200px] h-[150px] w-full cover" src="/ppr-service.avif" alt="CPVC-Service" />
+                <img className="md:h-[200px] h-[150px] w-full cover" src={pprServiceImg} alt="PPR-Service" />
               </div>
               <div className="p-5">
                 <h1 className="md:text-[2rem] text-[1.2rem] font-semibold text-center">PPR</h1>
@@ -61,7 +68,7 @@ function OurServices() {
 
             <div className="custom-shadow bg-white rounded-xl hover:scale-105 duration-200">
               <div>
-                <img className="md:h-[200px] h-[150px] w-full cover" src="/composite-service.jpg" alt="CPVC-Service" />
+                <img className="md:h-[200px] h-[150px] w-full cover" src={compositeServiceImg} alt="Composite-Service" />
               </div>
               <div className="p-5">
                 <h1 className="md:text-[2rem] text-[1.2rem] font-semibold text-center">COMPOSITE</h1>
@@ -69,15 +76,12 @@ function OurServices() {
               </div>
             </div>
 
-
               </div>
           </div>
-              
       </div>
             {/* services end here */}
-          
       </>
   )
 }
 
-export default OurServices
+export default OurServices;
