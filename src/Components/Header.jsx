@@ -54,9 +54,12 @@ function Header() {
                                         </> 
                                     ) :
                                         (
-                                            <button className={`flex items-center mt-5 w-full p-[1rem] sm:mt-0 gap-2 bg-orange-400 sm:rounded-[1.5rem] sm:p-[.7rem] hover:bg-blue-400 hover:text-white ${isOpen ? 'pl-[40%]':'pl-0'}`}>
-                                                <span>{nav.icon}</span>
-                                                <span>{nav.title}</span>
+                                            <button className={`flex items-center mt-5 w-full p-[1rem] sm:mt-0 gap-2 bg-orange-400 sm:rounded-[1.5rem] sm:p-[.7rem] hover:bg-blue-400 hover:text-white ${isOpen ? 'pl-[40%]' : 'pl-0'}`}>
+                                                <a href="https://wa.link/9n2yjg" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                                                    <span>{nav.icon}</span>
+                                                    <span>{nav.title}</span>
+                                                </a>
+                                                
                                             </button>
                                         )}
                                 </ul>
