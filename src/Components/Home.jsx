@@ -6,28 +6,28 @@ import avatar1 from '../assets/avtar1.png';
 function Home() {
   return (
       <>
-              {/* homePage start here */}
+          {/* Home Page Start */}
           <div className="sm:mt-[115px] grid custom-shadow sm:grid-cols-3 bg-blue-100 mx-auto max:h-auto py-2 max-w-[1400px] sm:h-[65vh] mt-[7rem]">
               <div className="h-[50vh] w-full sm:h-auto col-span-2 flex flex-col items-center md:h-[100%] py-[2rem] justify-center px-3 md:px-[2rem]">
                   <h1 className="text-[1.5rem] sm:text-[2rem] font-bold mx-auto text-center sm:mt-[-3rem] md:mt-0">
-                      Facing Plumbing Issues?<br /> Our Solutions Are Guaranteed!
+                      Plumbing Problems? We Provide Guaranteed Solutions!
                   </h1>
                   <p className="text-[.8rem] sm:text-[1rem] px-[.5rem] xl:px-[5rem] font-semibold pt-2  md:pt-5 sm:mb-5">
-                      "Facing any type of plumbing challenge? We provide 100% reliable solutions, whether you need repairs, new installations, or work done on commercial buildings, flats, or personal homes. Our expert team has handled projects of all sizes, ensuring top quality within your budget. See the list of services we offer below."
+                      "Are you facing plumbing issues in your home, apartment, or commercial space? Our licensed plumbers offer reliable plumbing repairs, installations, and maintenance services. From minor leaks to major installations, we ensure high-quality, affordable solutions. Browse our services below and let us help you solve your plumbing problems today!"
                   </p>
                   <button className={`flex items-center text-center md:text-[1.5rem] mt-5 w-auto p-[.5rem] sm:mt-0 gap-2 bg-orange-400 rounded-[1.5rem] sm:p-[.7rem] hover:bg-blue-400 hover:text-white`}>
                       <a href="https://wa.link/9n2yjg" target="_blank" rel="noopener noreferrer" className='flex items-center gap-2'>
                           <span><IoLogInOutline /></span>
-                          <span>Connect-Now</span>
+                          <span>Contact a Plumber Now</span>
                           </a>
                   </button>
               </div>
-              <div className="w-full mx-auto sm:h-auto flex items-center justify-start px-10 sm:justify-center" >
-                  <img className="h-[150px] sm:h-[200px] md:h-[300px]" src={plumberAvatar} alt="Plumber Avatar" />
-                  <img className="h-[150px] sm:hidden" src={avatar1} alt="Alternative Avatar" />
+              <div className="w-full mx-auto sm:h-auto flex items-center justify-start px-10 sm:justify-center">
+                  <img className="h-[150px] sm:h-[200px] md:h-[300px]" src={plumberAvatar} alt="Professional Plumber" />
+                  <img className="h-[150px] sm:hidden" src={avatar1} alt="Plumbing Service Icon" />
               </div>
           </div>
-              {/* homePage end here */}
+          {/* Home Page End */}
       </>
   )
 }
