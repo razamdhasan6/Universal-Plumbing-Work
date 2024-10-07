@@ -51,7 +51,7 @@ const OurClints = () => {
           </button>
         </article>
 
-        {/* Hitech Homes */}
+        {/* Ankura Urban Trilla */}
         <article className="mb-5 rounded-2xl gap-5 hover:scale-105 duration-50 custom-shadow">
           <img 
             className="rounded-t-xl w-full object-cover md:h-[200px] h-[150px]" 
@@ -59,7 +59,7 @@ const OurClints = () => {
             alt="Aqua Infotech Hitech Homes Project in Chanda Nagar, Hyderabad" 
           />
           <h3 className="ml-5 mt-2 font-semibold md:text-[1.5rem] text-[1.2rem]">Ankura Urban Trilla</h3>
-          <p className="ml-5 my-2 text-[.8rem] md:text-[1rem]"> Mokila, Hyderabad, Telangana</p>
+          <p className="ml-5 my-2 text-[.8rem] md:text-[1rem]"> Mokila, Rangareddy, Telangana</p>
           <button className="ml-5 mb-3 text-blue-400 p-2 bg-gray-100 underline text-[.rem] md:text-[1rem] rounded-xl">
             <a href="https://maps.app.goo.gl/W9bpbJrFqvigP3CBA" target="_blank" rel="noopener noreferrer">
               Visit Location
