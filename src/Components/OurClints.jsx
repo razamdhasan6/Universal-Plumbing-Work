@@ -10,6 +10,7 @@ import villas from '../assets/villas.jpg';
 import matrivanam from '../assets/matrivanam.jpg';
 import hitechhome from '../assets/hitech-home.jpeg';
 import ankura from '../assets/Ankura Urban Trilla.webp';
+import urvanVills from '../assets/Urvan Trilla Vills.jpg';
 
 const OurClints = () => {
   return (
@@ -35,22 +36,6 @@ const OurClints = () => {
           </button>
         </article>
         
-        {/* Hitech Homes */}
-        <article className="mb-5 rounded-2xl gap-5 hover:scale-105 duration-50 custom-shadow">
-          <img 
-            className="rounded-t-xl w-full object-cover md:h-[200px] h-[150px]" 
-            src={hitechhome} 
-            alt="Aqua Infotech Hitech Homes Project in Chanda Nagar, Hyderabad" 
-          />
-          <h3 className="ml-5 mt-2 font-semibold md:text-[1.5rem] text-[1.2rem]">Aqua Infotech / Hitech Homes</h3>
-          <p className="ml-5 my-2 text-[.8rem] md:text-[1rem]">Chanda Nagar, Hyderabad, Telangana</p>
-          <button className="ml-5 mb-3 text-blue-400 p-2 bg-gray-100 underline text-[.rem] md:text-[1rem] rounded-xl">
-            <a href="https://maps.app.goo.gl/t9kD9DvPQ6EoWpnx8" target="_blank" rel="noopener noreferrer">
-              Visit Location
-            </a>
-          </button>
-        </article>
-
         {/* Ankura Urban Trilla */}
         <article className="mb-5 rounded-2xl gap-5 hover:scale-105 duration-50 custom-shadow">
           <img 
@@ -62,6 +47,38 @@ const OurClints = () => {
           <p className="ml-5 my-2 text-[.8rem] md:text-[1rem]"> Mokila, Rangareddy, Telangana</p>
           <button className="ml-5 mb-3 text-blue-400 p-2 bg-gray-100 underline text-[.rem] md:text-[1rem] rounded-xl">
             <a href="https://maps.app.goo.gl/W9bpbJrFqvigP3CBA" target="_blank" rel="noopener noreferrer">
+              Visit Location
+            </a>
+          </button>
+        </article>
+
+        {/* Urban Trilla villas */}
+        <article className="mb-5 rounded-2xl gap-5 hover:scale-105 duration-50 custom-shadow">
+          <img 
+            className="rounded-t-xl w-full object-cover md:h-[200px] h-[150px]" 
+            src={urvanVills} 
+            alt="Aqua Infotech Hitech Homes Project in Chanda Nagar, Hyderabad" 
+          />
+          <h3 className="ml-5 mt-2 font-semibold md:text-[1.5rem] text-[1.2rem]">Urban Trilla Farms Villas</h3>
+          <p className="ml-5 my-2 text-[.8rem] md:text-[1rem]"> Shankarpalli-Chevella Road, Chandippa, Shankarpalle, Hyderabad, Telangana</p>
+          <button className="ml-5 mb-3 text-blue-400 p-2 bg-gray-100 underline text-[.rem] md:text-[1rem] rounded-xl">
+            <a href="https://maps.app.goo.gl/vD2VJDSsuUV4dYVd7" target="_blank" rel="noopener noreferrer">
+              Visit Location
+            </a>
+          </button>
+        </article>
+
+         {/* Hitech Homes */}
+         <article className="mb-5 rounded-2xl gap-5 hover:scale-105 duration-50 custom-shadow">
+          <img 
+            className="rounded-t-xl w-full object-cover md:h-[200px] h-[150px]" 
+            src={hitechhome} 
+            alt="Aqua Infotech Hitech Homes Project in Chanda Nagar, Hyderabad" 
+          />
+          <h3 className="ml-5 mt-2 font-semibold md:text-[1.5rem] text-[1.2rem]">Aqua Infotech / Hitech Homes</h3>
+          <p className="ml-5 my-2 text-[.8rem] md:text-[1rem]">Chanda Nagar, Hyderabad, Telangana</p>
+          <button className="ml-5 mb-3 text-blue-400 p-2 bg-gray-100 underline text-[.rem] md:text-[1rem] rounded-xl">
+            <a href="https://maps.app.goo.gl/t9kD9DvPQ6EoWpnx8" target="_blank" rel="noopener noreferrer">
               Visit Location
             </a>
           </button>
