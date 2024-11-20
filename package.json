@@ -1,8 +1,8 @@
 {
-  "name": "Plumbing-website",
+  "name": "Universal-Plumbing-Work",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://razamdhasan6.github.io/Plumbing-website/",
+  "homepage": "https://razamdhasan6.github.io/Universal-Plumbing-Work/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
