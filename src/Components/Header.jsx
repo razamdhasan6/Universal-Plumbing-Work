@@ -32,7 +32,7 @@ function Header() {
     <>
       <div className="whitespace-nowrap fixed top-0 sm:left-1/2 sm:transform sm:-translate-x-1/2 w-full z-10 bg-white max-w-[1400px] custom-shadow h-[100px] flex justify-between items-center mx-auto px-[3rem] py-[.5rem] font-semibold ">
         <div className="max-w-[160px] h-[90px] ml-[-1.5rem] sm:ml-0 text-[1rem] md:max-w-[300px] md:text-[1.3rem] flex flex-col items-center p-[1.2rem] shadow-xl rounded-[3rem]">
-          <p className="text-blue-300 mt-[-10px] text-[2rem] p-0 m-0">Universal</p>
+          <p className="text-blue-300 mt-[-13px] text-[2rem] p-0 m-0">Universal</p>
           <p className="mt-[-.5rem]">
             Plumbing <span className="text-red-500">Work</span>{" "}
           </p>
@@ -77,7 +77,7 @@ function Header() {
                     }`}
                   >
                     <a
-                      href="https://wa.link/pfr4e9"
+                      href="https://wa.link/d7uioh"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center gap-2"

@@ -99,7 +99,7 @@ const Footer = () => {
           title="Book Now"
         >
           <a
-            href="https://wa.link/pfr4e9"
+            href="https://wa.link/d7uioh"
             target="_blank"
             rel="noopener noreferrer"
           >
