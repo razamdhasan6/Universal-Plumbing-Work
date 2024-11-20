@@ -15,8 +15,8 @@ function Home() {
                   <p className="text-[.8rem] sm:text-[1rem] px-[.5rem] xl:px-[5rem] font-semibold pt-2  md:pt-5 sm:mb-5">
                       "Are you facing plumbing issues in your home, apartment, or commercial space? Our licensed plumbers offer reliable plumbing repairs, installations, and maintenance services. From minor leaks to major installations, we ensure high-quality, affordable solutions. Browse our services below and let us help you solve your plumbing problems today!"
                   </p>
-                  <button className={`flex items-center text-center md:text-[1.5rem] mt-5 w-auto p-[.5rem] sm:mt-0 gap-2 bg-orange-400 rounded-[1.5rem] sm:p-[.7rem] hover:bg-blue-400 hover:text-white`}>
-                      <a href="https://wa.link/9n2yjg" target="_blank" rel="noopener noreferrer" className='flex items-center gap-2'>
+                  <button className={`flex items-center text-center md:text-[1.5rem] mt-5 w-auto p-[.5rem] sm:mt-0 gap-2 text-white bg-blue-600 rounded-[1.5rem] sm:p-[.7rem] hover:bg-orange-400 hover:text-black transition-all duration-300`}>
+                      <a href="https://wa.link/pfr4e9" target="_blank" rel="noopener noreferrer" className='flex items-center gap-2'>
                           <span><IoLogInOutline /></span>
                           <span>Contact a Plumber Now</span>
                           </a>

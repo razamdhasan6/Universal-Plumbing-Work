@@ -3,65 +3,118 @@ import { useEffect, useState } from "react";
 import { Link } from "react-scroll";
 
 const Footer = () => {
-  let [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
-    if (isOpen) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "auto";
-    }
+    document.body.style.overflow = isOpen ? "hidden" : "auto";
   }, [isOpen]);
 
   return (
-    <div className="bg-orange-100 p-8 flex flex-col gap-2 text-center items-center justify-center pb-3">
-      <div className="flex gap-3 text-[2rem] cursor-pointer">
-        <span className="hover:scale-125 hover:bg-blue-200">
+    <footer className="bg-orange-100 p-8 flex flex-col gap-4 text-center items-center justify-center pb-3">
+      {/* Social Media Icons */}
+      <div className="flex gap-4 text-[2rem] cursor-pointer">
+        <span
+          className="hover:scale-125 hover:bg-blue-200 p-2 rounded-full"
+          aria-label="Facebook"
+          title="Visit our Facebook page"
+        >
           <CiFacebook />
         </span>
-        <span className="hover:scale-125 hover:bg-blue-200">
+        <span
+          className="hover:scale-125 hover:bg-blue-200 p-2 rounded-full"
+          aria-label="Instagram"
+          title="Visit our Instagram profile"
+        >
           <CiInstagram />
         </span>
-        <span className="hover:scale-125 hover:bg-blue-200">
+        <span
+          className="hover:scale-125 hover:bg-blue-200 p-2 rounded-full"
+          aria-label="Twitter"
+          title="Visit our Twitter profile"
+        >
           <CiTwitter />
         </span>
       </div>
 
-      <div className="flex gap-3 cursor-pointer">
-        {/* Same smooth scroll links as used in Header */}
-        <p className="hover:bg-gray-200 hover:scale-125 hover:p-1 hover:rounded-lg whitespace-nowrap text-[.85rem] md:text-[1rem]">
-          <Link to="home" smooth={true} offset={-115} duration={400} onClick={() => setIsOpen(false)}>
+      {/* Navigation Links */}
+      <nav className="flex gap-4 cursor-pointer text-[0.85rem] md:text-[1rem]">
+        <p
+          className="hover:bg-gray-200 hover:scale-110 p-1 rounded-lg"
+          title="Scroll to Home"
+        >
+          <Link
+            to="home"
+            smooth={true}
+            offset={-115}
+            duration={400}
+            onClick={() => setIsOpen(false)}
+          >
             Home
           </Link>
         </p>
-
-        <p className="hover:bg-gray-200 hover:scale-125 hover:p-1 hover:rounded-lg whitespace-nowrap text-[.85rem] md:text-[1rem]">
-          <Link to="services" smooth={true} offset={-115} duration={400} onClick={() => setIsOpen(false)}>
+        <p
+          className="hover:bg-gray-200 hover:scale-110 p-1 rounded-lg"
+          title="Scroll to Services"
+        >
+          <Link
+            to="services"
+            smooth={true}
+            offset={-115}
+            duration={400}
+            onClick={() => setIsOpen(false)}
+          >
             Services
           </Link>
         </p>
-
-        <p className="hover:bg-gray-200 hover:scale-125 hover:p-1 hover:rounded-lg whitespace-nowrap text-[.85rem] md:text-[1rem]">
-          <Link to="clients" smooth={true} offset={-115} duration={400} onClick={() => setIsOpen(false)}>
+        <p
+          className="hover:bg-gray-200 hover:scale-110 p-1 rounded-lg"
+          title="Scroll to Our Clients"
+        >
+          <Link
+            to="clients"
+            smooth={true}
+            offset={-115}
+            duration={400}
+            onClick={() => setIsOpen(false)}
+          >
             Our Clients
           </Link>
         </p>
-
-        <p className="hover:bg-gray-200 hover:scale-125 hover:p-1 hover:rounded-lg whitespace-nowrap text-[.85rem] md:text-[1rem]">
-          <Link to="contact" smooth={true} offset={-115} duration={400} onClick={() => setIsOpen(false)}>
+        <p
+          className="hover:bg-gray-200 hover:scale-110 p-1 rounded-lg"
+          title="Scroll to Contact Us"
+        >
+          <Link
+            to="contact"
+            smooth={true}
+            offset={-115}
+            duration={400}
+            onClick={() => setIsOpen(false)}
+          >
             Contact Us
           </Link>
         </p>
+        <p
+          className="hover:bg-gray-200 hover:scale-110 p-1 underline text-green-400 rounded-md"
+          title="Book Now"
+        >
+          <a
+            href="https://wa.link/pfr4e9"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Book Now
+          </a>
+        </p>
+      </nav>
 
-        <p className="hover:bg-gray-200 hover:scale-125 hover:p-1 hover:rounded-lg whitespace-nowrap text-[.85rem] md:text-[1rem] underline text-green-400 rounded-md px-1">
-         <a href="https://wa.link/9n2yjg" target="_blank" rel="noopener noreferrer">Book Now</a> 
+      {/* Footer Text */}
+      <div>
+        <p className="text-[0.7rem] md:text-[0.9rem] text-gray-600">
+          © 2024 Universal Plumbing Work India. All rights reserved.
         </p>
       </div>
-
-      <div>
-        <p className="text-[.7rem] md:text-[.9rem]">© 2024 A1 Plumbing Work</p>
-      </div>
-    </div>
+    </footer>
   );
 };
 
