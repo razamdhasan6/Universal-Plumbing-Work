@@ -1,1 +1,4 @@
-https://www.universalplumbingwork.in/sitemap.xml
+User-agent: *
+Disallow:
+
+Sitemap: https://www.universalplumbingwork.in/sitemap.xml
